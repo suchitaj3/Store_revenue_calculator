@@ -48,7 +48,6 @@ const buildNodeMap = (sampleData) => {
     return nodeMap;
 }
 
-module.exports = {
-    TreeNode, 
+module.exports = { 
     getLocationAmount
 }

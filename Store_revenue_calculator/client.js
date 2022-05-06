@@ -25,6 +25,7 @@ storeRevenue.getLocationAmount('Australia', sampleData) // return 67,000
 storeRevenue.getLocationAmount('Newcastle', sampleData) // return 5,000
 storeRevenue.getLocationAmount('Sydney Store 2', sampleData) // return 32,000
 storeRevenue.getLocationAmount('Ha Noi', sampleData) // return 11,000
+storeRevenue.getLocationAmount('Vietnam', sampleData) // return 16,000
 
 //For testing, when samples are given not in order
 const sampleDataOutOfOrder = [
@@ -51,3 +52,4 @@ storeRevenue.getLocationAmount('Australia', sampleDataOutOfOrder) // return 67,0
 storeRevenue.getLocationAmount('Newcastle', sampleDataOutOfOrder) // return 5,000
 storeRevenue.getLocationAmount('Sydney Store 2', sampleDataOutOfOrder) // return 32,000
 storeRevenue.getLocationAmount('Ha Noi', sampleDataOutOfOrder) // return 11,000
+storeRevenue.getLocationAmount('Vietnam', sampleData) // return 16,000
